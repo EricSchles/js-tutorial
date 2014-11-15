@@ -1,11 +1,19 @@
 <html>
 <head>
-
+<script>
+var greeting = function(){
+  document.getElementById("hello").innerHTML = "Oh hi there";
+};
+</script>
 </head>
 <body>
 <h1>Intro to HTML - For Bianca (you)</h1>
 <h2>Things and stuff - w/e</h2>
 <p style="color:chartreuse"> Hello there bianca, we are friends!(you and html that is ;)</p>
+
+<input type="button" onclick="greeting()">Submit
+
+<p id="hello"></p>
 
 </body>
 </html>
