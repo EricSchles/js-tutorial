@@ -1,0 +1,6 @@
+
+var greeting = function(){
+
+    document.getElementById("hello").value = "Oh hi there";
+
+};
